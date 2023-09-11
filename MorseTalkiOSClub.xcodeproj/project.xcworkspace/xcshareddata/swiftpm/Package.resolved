@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "dypopoverview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DominikButz/DYPopoverView",
+      "state" : {
+        "branch" : "master",
+        "revision" : "1dbd6cca68d4d833bbe7e0122913eecf39d41c2e"
+      }
+    },
+    {
+      "identity" : "popovers",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aheze/Popovers",
+      "state" : {
+        "revision" : "de44c4dd7271ec6413fe350f7efadb14e5e18dce",
+        "version" : "1.3.2"
+      }
+    },
+    {
+      "identity" : "spconfetti",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ivanvorobei/SPConfetti",
+      "state" : {
+        "revision" : "257a8674c62212a3919abd1f9cb31dc2fc7b0992",
+        "version" : "1.4.1"
+      }
+    }
+  ],
+  "version" : 2
+}

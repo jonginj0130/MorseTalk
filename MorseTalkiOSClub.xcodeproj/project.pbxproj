@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19FAFEC429DF8A7E00DF542A /* helpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FAFEC329DF8A7E00DF542A /* helpScreen.swift */; };
+		19FAFEC629DF8AB100DF542A /* TranslationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FAFEC529DF8AB100DF542A /* TranslationScreen.swift */; };
+		19FAFEC829DF8AC500DF542A /* DotDashAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FAFEC729DF8AC500DF542A /* DotDashAnimation.swift */; };
+		19FAFECA29DF8B0E00DF542A /* PieShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FAFEC929DF8B0E00DF542A /* PieShape.swift */; };
+		19FAFECC29DF8BCF00DF542A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FAFECB29DF8BCF00DF542A /* Settings.swift */; };
+		19FAFECF29DF8C4A00DF542A /* DYPopoverView in Frameworks */ = {isa = PBXBuildFile; productRef = 19FAFECE29DF8C4A00DF542A /* DYPopoverView */; };
+		19FAFED329E22F0200DF542A /* Flashlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FAFED229E22F0200DF542A /* Flashlight.swift */; };
+		2EB729BB299EFA47005623CA /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB729BA299EFA47005623CA /* WelcomeScreen.swift */; };
+		2EC34F1829BAA71E00B9859D /* TutorialMorseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC34F1729BAA71E00B9859D /* TutorialMorseCode.swift */; };
+		940512F229A8318D007407DD /* TutorialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940512F129A8318D007407DD /* TutorialScreen.swift */; };
+		940F8BF129D64E8200F9CEF2 /* View+Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F8BF029D64E8200F9CEF2 /* View+Dialog.swift */; };
+		9472EA0629BD5E6900DEF86F /* String+Indexing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9472EA0529BD5E6900DEF86F /* String+Indexing.swift */; };
+		B700988329E608E500CC7882 /* SPConfetti in Frameworks */ = {isa = PBXBuildFile; productRef = B700988229E608E500CC7882 /* SPConfetti */; };
+		B72E641629DCE26800B9A0DB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E641529DCE26800B9A0DB /* HomeView.swift */; };
+		B72E641829DCE3CA00B9A0DB /* Dictionary+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E641729DCE3CA00B9A0DB /* Dictionary+RawRepresentable.swift */; };
+		B72E641A29DCE59600B9A0DB /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E641929DCE59600B9A0DB /* Translation.swift */; };
+		B737416229DF5C1C00388D23 /* ShakeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B737416129DF5C1C00388D23 /* ShakeAnimation.swift */; };
+		B737416529DF60D600388D23 /* Popovers in Frameworks */ = {isa = PBXBuildFile; productRef = B737416429DF60D600388D23 /* Popovers */; };
+		B737416729DF60F300388D23 /* InfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B737416629DF60F300388D23 /* InfoCard.swift */; };
+		B7766B2A29E5C7DC0092DEE4 /* CreditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7766B2929E5C7DC0092DEE4 /* CreditScreen.swift */; };
+		B7870FC6290B3FA0005157F6 /* MorseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7870FC5290B3F9F005157F6 /* MorseCode.swift */; };
+		B7B4238C28F51E720099B38E /* MorseTalkiOSClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B4238B28F51E720099B38E /* MorseTalkiOSClubApp.swift */; };
+		B7B4238E28F51E720099B38E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B4238D28F51E720099B38E /* ContentView.swift */; };
+		B7B4239028F51E740099B38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B4238F28F51E740099B38E /* Assets.xcassets */; };
+		B7B4239328F51E740099B38E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B4239228F51E740099B38E /* Preview Assets.xcassets */; };
+		B7B4239A28F51FA70099B38E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B4239928F51FA70099B38E /* CameraViewController.swift */; };
+		B7B4239C28F520870099B38E /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B4239B28F520870099B38E /* CameraController.swift */; };
+		B7B4239E28F5250A0099B38E /* HandGestureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B4239D28F5250A0099B38E /* HandGestureProcessor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19FAFEC329DF8A7E00DF542A /* helpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpScreen.swift; sourceTree = "<group>"; };
+		19FAFEC529DF8AB100DF542A /* TranslationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationScreen.swift; sourceTree = "<group>"; };
+		19FAFEC729DF8AC500DF542A /* DotDashAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotDashAnimation.swift; sourceTree = "<group>"; };
+		19FAFEC929DF8B0E00DF542A /* PieShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieShape.swift; sourceTree = "<group>"; };
+		19FAFECB29DF8BCF00DF542A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		19FAFED229E22F0200DF542A /* Flashlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashlight.swift; sourceTree = "<group>"; };
+		2EB729BA299EFA47005623CA /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		2EC34F1729BAA71E00B9859D /* TutorialMorseCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialMorseCode.swift; sourceTree = "<group>"; };
+		940512F129A8318D007407DD /* TutorialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialScreen.swift; sourceTree = "<group>"; };
+		940F8BF029D64E8200F9CEF2 /* View+Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Dialog.swift"; sourceTree = "<group>"; };
+		9472EA0529BD5E6900DEF86F /* String+Indexing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Indexing.swift"; sourceTree = "<group>"; };
+		B72E641529DCE26800B9A0DB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B72E641729DCE3CA00B9A0DB /* Dictionary+RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+RawRepresentable.swift"; sourceTree = "<group>"; };
+		B72E641929DCE59600B9A0DB /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
+		B737416129DF5C1C00388D23 /* ShakeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimation.swift; sourceTree = "<group>"; };
+		B737416629DF60F300388D23 /* InfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCard.swift; sourceTree = "<group>"; };
+		B7766B2929E5C7DC0092DEE4 /* CreditScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScreen.swift; sourceTree = "<group>"; };
+		B7870FC5290B3F9F005157F6 /* MorseCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorseCode.swift; sourceTree = "<group>"; };
+		B7B4238828F51E720099B38E /* MorseTalkiOSClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseTalkiOSClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B4238B28F51E720099B38E /* MorseTalkiOSClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseTalkiOSClubApp.swift; sourceTree = "<group>"; };
+		B7B4238D28F51E720099B38E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7B4238F28F51E740099B38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7B4239228F51E740099B38E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7B4239928F51FA70099B38E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B7B4239B28F520870099B38E /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		B7B4239D28F5250A0099B38E /* HandGestureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandGestureProcessor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7B4238528F51E720099B38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FAFECF29DF8C4A00DF542A /* DYPopoverView in Frameworks */,
+				B700988329E608E500CC7882 /* SPConfetti in Frameworks */,
+				B737416529DF60D600388D23 /* Popovers in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7B4237F28F51E720099B38E = {
+			isa = PBXGroup;
+			children = (
+				B7B4238A28F51E720099B38E /* MorseTalkiOSClub */,
+				B7B4238928F51E720099B38E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B4238928F51E720099B38E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4238828F51E720099B38E /* MorseTalkiOSClub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B4238A28F51E720099B38E /* MorseTalkiOSClub */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4238B28F51E720099B38E /* MorseTalkiOSClubApp.swift */,
+				B72E641929DCE59600B9A0DB /* Translation.swift */,
+				B7B4238D28F51E720099B38E /* ContentView.swift */,
+				19FAFECB29DF8BCF00DF542A /* Settings.swift */,
+				B7766B2929E5C7DC0092DEE4 /* CreditScreen.swift */,
+				19FAFEC529DF8AB100DF542A /* TranslationScreen.swift */,
+				19FAFED229E22F0200DF542A /* Flashlight.swift */,
+				19FAFEC729DF8AC500DF542A /* DotDashAnimation.swift */,
+				19FAFEC929DF8B0E00DF542A /* PieShape.swift */,
+				19FAFEC329DF8A7E00DF542A /* helpScreen.swift */,
+				B72E641529DCE26800B9A0DB /* HomeView.swift */,
+				B7B4239928F51FA70099B38E /* CameraViewController.swift */,
+				B7B4239B28F520870099B38E /* CameraController.swift */,
+				B7B4239D28F5250A0099B38E /* HandGestureProcessor.swift */,
+				B7870FC5290B3F9F005157F6 /* MorseCode.swift */,
+				2EB729BA299EFA47005623CA /* WelcomeScreen.swift */,
+				940512F129A8318D007407DD /* TutorialScreen.swift */,
+				B737416129DF5C1C00388D23 /* ShakeAnimation.swift */,
+				940F8BF029D64E8200F9CEF2 /* View+Dialog.swift */,
+				2EC34F1729BAA71E00B9859D /* TutorialMorseCode.swift */,
+				9472EA0529BD5E6900DEF86F /* String+Indexing.swift */,
+				B72E641729DCE3CA00B9A0DB /* Dictionary+RawRepresentable.swift */,
+				B737416629DF60F300388D23 /* InfoCard.swift */,
+				B7B4238F28F51E740099B38E /* Assets.xcassets */,
+				B7B4239128F51E740099B38E /* Preview Content */,
+			);
+			path = MorseTalkiOSClub;
+			sourceTree = "<group>";
+		};
+		B7B4239128F51E740099B38E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4239228F51E740099B38E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7B4238728F51E720099B38E /* MorseTalkiOSClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B4239628F51E740099B38E /* Build configuration list for PBXNativeTarget "MorseTalkiOSClub" */;
+			buildPhases = (
+				B7B4238428F51E720099B38E /* Sources */,
+				B7B4238528F51E720099B38E /* Frameworks */,
+				B7B4238628F51E720099B38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorseTalkiOSClub;
+			packageProductDependencies = (
+				B737416429DF60D600388D23 /* Popovers */,
+				19FAFECE29DF8C4A00DF542A /* DYPopoverView */,
+				B700988229E608E500CC7882 /* SPConfetti */,
+			);
+			productName = MorseTalkiOSClub;
+			productReference = B7B4238828F51E720099B38E /* MorseTalkiOSClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7B4238028F51E720099B38E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B7B4238728F51E720099B38E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = B7B4238328F51E720099B38E /* Build configuration list for PBXProject "MorseTalkiOSClub" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7B4237F28F51E720099B38E;
+			packageReferences = (
+				B737416329DF60D600388D23 /* XCRemoteSwiftPackageReference "Popovers" */,
+				19FAFECD29DF8C4A00DF542A /* XCRemoteSwiftPackageReference "DYPopoverView" */,
+				B700988129E608E500CC7882 /* XCRemoteSwiftPackageReference "SPConfetti" */,
+			);
+			productRefGroup = B7B4238928F51E720099B38E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7B4238728F51E720099B38E /* MorseTalkiOSClub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B4238628F51E720099B38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B4239328F51E740099B38E /* Preview Assets.xcassets in Resources */,
+				B7B4239028F51E740099B38E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7B4238428F51E720099B38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B4239E28F5250A0099B38E /* HandGestureProcessor.swift in Sources */,
+				940512F229A8318D007407DD /* TutorialScreen.swift in Sources */,
+				B72E641629DCE26800B9A0DB /* HomeView.swift in Sources */,
+				B7766B2A29E5C7DC0092DEE4 /* CreditScreen.swift in Sources */,
+				940F8BF129D64E8200F9CEF2 /* View+Dialog.swift in Sources */,
+				B7B4238E28F51E720099B38E /* ContentView.swift in Sources */,
+				B7B4238C28F51E720099B38E /* MorseTalkiOSClubApp.swift in Sources */,
+				9472EA0629BD5E6900DEF86F /* String+Indexing.swift in Sources */,
+				19FAFECA29DF8B0E00DF542A /* PieShape.swift in Sources */,
+				B72E641829DCE3CA00B9A0DB /* Dictionary+RawRepresentable.swift in Sources */,
+				19FAFEC829DF8AC500DF542A /* DotDashAnimation.swift in Sources */,
+				B7B4239C28F520870099B38E /* CameraController.swift in Sources */,
+				2EC34F1829BAA71E00B9859D /* TutorialMorseCode.swift in Sources */,
+				B737416229DF5C1C00388D23 /* ShakeAnimation.swift in Sources */,
+				19FAFED329E22F0200DF542A /* Flashlight.swift in Sources */,
+				19FAFEC429DF8A7E00DF542A /* helpScreen.swift in Sources */,
+				2EB729BB299EFA47005623CA /* WelcomeScreen.swift in Sources */,
+				B7B4239A28F51FA70099B38E /* CameraViewController.swift in Sources */,
+				19FAFEC629DF8AB100DF542A /* TranslationScreen.swift in Sources */,
+				B7870FC6290B3FA0005157F6 /* MorseCode.swift in Sources */,
+				B72E641A29DCE59600B9A0DB /* Translation.swift in Sources */,
+				19FAFECC29DF8BCF00DF542A /* Settings.swift in Sources */,
+				B737416729DF60F300388D23 /* InfoCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7B4239428F51E740099B38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7B4239528F51E740099B38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7B4239728F51E740099B38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MorseTalkiOSClub/Preview Content\"";
+				DEVELOPMENT_TEAM = 5S5Q89JC5R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MorseTalk requires access to the camera in order to identify different hand poses and perform translation.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejeshwarnt.MorseTalkiOSClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7B4239828F51E740099B38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MorseTalkiOSClub/Preview Content\"";
+				DEVELOPMENT_TEAM = 5S5Q89JC5R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MorseTalk requires access to the camera in order to identify different hand poses and perform translation.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejeshwarnt.MorseTalkiOSClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7B4238328F51E720099B38E /* Build configuration list for PBXProject "MorseTalkiOSClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B4239428F51E740099B38E /* Debug */,
+				B7B4239528F51E740099B38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B4239628F51E740099B38E /* Build configuration list for PBXNativeTarget "MorseTalkiOSClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B4239728F51E740099B38E /* Debug */,
+				B7B4239828F51E740099B38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19FAFECD29DF8C4A00DF542A /* XCRemoteSwiftPackageReference "DYPopoverView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DominikButz/DYPopoverView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		B700988129E608E500CC7882 /* XCRemoteSwiftPackageReference "SPConfetti" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivanvorobei/SPConfetti";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B737416329DF60D600388D23 /* XCRemoteSwiftPackageReference "Popovers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aheze/Popovers";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19FAFECE29DF8C4A00DF542A /* DYPopoverView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19FAFECD29DF8C4A00DF542A /* XCRemoteSwiftPackageReference "DYPopoverView" */;
+			productName = DYPopoverView;
+		};
+		B700988229E608E500CC7882 /* SPConfetti */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B700988129E608E500CC7882 /* XCRemoteSwiftPackageReference "SPConfetti" */;
+			productName = SPConfetti;
+		};
+		B737416429DF60D600388D23 /* Popovers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B737416329DF60D600388D23 /* XCRemoteSwiftPackageReference "Popovers" */;
+			productName = Popovers;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B7B4238028F51E720099B38E /* Project object */;
+}

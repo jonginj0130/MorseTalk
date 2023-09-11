@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B90B25F0-F361-4131-AB8B-15BCF5DE1A34"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5B56FEF-60C8-4EFA-B621-ECB8DB003EC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MorseTalkiOSClub/MorseCode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "removeLastChar()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E5B56FEF-60C8-4EFA-B621-ECB8DB003EC1 - 14ebf08ad36bfee2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MorseTalkiOSClub.MorseCode.translate() -&gt; ()"
+                  moduleName = "MorseTalkiOSClub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rahul/Developer/iOS%20Club/MorseTalk/MorseTalkiOSClub/MorseCode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "E5B56FEF-60C8-4EFA-B621-ECB8DB003EC1 - 14ebf08ad36bfee2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MorseTalkiOSClub.MorseCode.translate() -&gt; ()"
+                  moduleName = "MorseTalkiOSClub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rahul/Developer/iOS%20Club/MorseTalk/MorseTalkiOSClub/MorseCode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F1C4EA8-B83D-4AEE-BD75-A7B99D5BBD49"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MorseTalkiOSClub/MorseCode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "removeLastChar()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
