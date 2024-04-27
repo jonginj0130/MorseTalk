@@ -13,10 +13,25 @@ MorseTalk is an engaging and interactive way to learn Morse Code. Convert your h
 
 ## Views
 
-| Quick Tips | Tutorial |
-|:----:|:----:|
-|<img src="images/tutorial.png" width="250">|<img src="images/view.png" width="250"> |
 
-| Real-Time View | Save Translations |
-|:----:|:----:|
-| <img src="images/real-time.png" width="250" > | <img src="images/save.png" width="250" >|
+<div align="center">
+<table>
+  <tr>
+    <th>Quick Tips</th>
+    <th>Tutorial</th>
+  </tr>
+  <tr>
+    <td><img src="images/tutorial.png" width="250"></td>
+    <td><img src="images/view.png" width="250"></td>
+  </tr>
+  <tr>
+    <th>Real-Time View</th>
+    <th>Save Translations</th>
+  </tr>
+  <tr>
+    <td><img src="images/real-time.png" width="250"></td>
+    <td><img src="images/save.png" width="250"></td>
+  </tr>
+</table>
+</div>
+
